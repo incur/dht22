@@ -102,9 +102,7 @@ int main (int argc, char *argv[])
 {
   int lockfd;
 
-  if (argc != 2)
-    printf ("usage: %s <pin>\ndescription: pin is the wiringPi pin number\nusing 7 (GPIO 4)\n",argv[0]);
-  else
+  if (argc == 2)
     DHTPIN = atoi(argv[1]);
    
 
