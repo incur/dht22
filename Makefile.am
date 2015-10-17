@@ -1,5 +1,5 @@
-bin_PROGRAMS = loldht
-loldht_SOURCES = dht22.c locking.c
+bin_PROGRAMS = dht22
+dht22_SOURCES = dht22.c locking.c
 AUTOMAKE_OPTIONS = foreign
 
 noinst_HEADERS = 
