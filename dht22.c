@@ -102,9 +102,6 @@ int main (int argc, char *argv[])
 
   if (argc == 2)
     DHTPIN = atoi(argv[1]);
-   
-
-  printf ("Raspberry Pi wiringPi DHT22 reader\nwww.lolware.net\n") ;
 
   lockfd = open_lockfile(LOCKFILE);
 
