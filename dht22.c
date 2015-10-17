@@ -93,7 +93,6 @@ static int read_dht22_dat()
   }
   else
   {
-    printf("Data not good, skip\n");
     return 0;
   }
 }
